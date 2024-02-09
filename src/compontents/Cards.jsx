@@ -6,7 +6,7 @@ import Offery from '../assets/OFERTA.png'
 
 const Cards = () => {
   return (
-    <div className='w-full pt-[80px] md:pt-[10rem] pb-[40px] px-4 bg-white rounded-t-[100px]'>
+    <div className='w-full pt-[80px] md:pt-[10rem] pb-[40px] px-4 bg-white rounded-t-[100px] xl:rounded-bl-[500px]'>
         <div className='flex md:hidden justify-center'>
         <img src={Offery} alt="napis oferta" className='w-[320px] pb-[80px]'/>
         </div>
@@ -31,7 +31,7 @@ const Cards = () => {
             </div>
         </div>
         <div className='hidden md:flex justify-end pt-[100px]'>
-            <img src={Offery} alt="napis oferta" />
+            <img src={Offery} alt="napis oferta" className='xl:w-[1000px]'/>
         </div>
     </div>
   )

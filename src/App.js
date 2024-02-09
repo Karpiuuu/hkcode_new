@@ -2,6 +2,11 @@ import Navbar from './compontents/Navbar';
 import Hero from './compontents/Hero';
 import Content from './compontents/Content';
 import Cards from './compontents/Cards';
+import Reviews from './compontents/Reviews';
+import Portfolio from './compontents/Portfolio';
+import GoogleReviews from './compontents/GoogleReviews';
+
+
 
 function App() {
   return (
@@ -10,6 +15,8 @@ function App() {
       <Hero />
       {/* <Content /> */}
       <Cards />
+      <Reviews />
+      <Portfolio />
     </div>
   );
 }
