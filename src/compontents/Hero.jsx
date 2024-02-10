@@ -1,11 +1,13 @@
 import React from 'react'
 import { ReactTyped } from "react-typed";
 
+import Kula from '../assets/kula.png'
+
 function Hero() {
   return (
-    <div className="w-full z-998 py-[10rem] px-2 h-screen">
+    <div className="w-full z-998 pb-[10rem] pt-[5rem] px-2 h-screen">
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 gap-8'>
-            <div className=''>
+            <div className='animate-slide-from-left'>
               <h1 className='text-white text-[80px] font-bold'>HKCODE.PL</h1>
               <ReactTyped
                 className='text-[#BA74D9] text-[52px] font-bold'
@@ -30,7 +32,9 @@ function Hero() {
                 
               </div>
             </div>
-            <div></div>
+            <div className='animate-slide-from-right'>
+              <img src={Kula} alt="dryfujaca kula" className='hidden md:flex w-[600px] mt-[-100px] absolute animate-drift-up-down'/>
+            </div>
         </div>
     </div>
   )

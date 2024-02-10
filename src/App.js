@@ -1,22 +1,22 @@
-import Navbar from './compontents/Navbar';
-import Hero from './compontents/Hero';
-import Content from './compontents/Content';
-import Cards from './compontents/Cards';
-import Reviews from './compontents/Reviews';
-import Portfolio from './compontents/Portfolio';
-import GoogleReviews from './compontents/GoogleReviews';
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+
+import Home from './pages/Home'
+import NoPage from './pages/NoPage';
+import Contact from './pages/Contact';
 
 
 
 function App() {
   return (
-    <div className='main-bg '>
-      <Navbar />
-      <Hero />
-      {/* <Content /> */}
-      <Cards />
-      <Reviews />
-      <Portfolio />
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home />}/>
+          <Route path="/home" element={<Home />}/>
+          <Route path="/contact" element={<Contact />}/>
+          <Route path="*" element={<NoPage />}/>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

@@ -37,7 +37,7 @@ import Logo from '../assets/logo.svg'
     useEffect(() => {
       const handleScroll = () => {
         const currentScrollPos = window.pageYOffset;
-        const isScrollDown = currentScrollPos > 0;
+        const isScrollDown = currentScrollPos > 100;
         setScrollDown(isScrollDown);
       };
 
@@ -46,7 +46,7 @@ import Logo from '../assets/logo.svg'
     }, []);
 
     return (
-      <div className={classNames('w-full md:sticky md:top-0 z-[999]', 
+      <div className={classNames('w-full md:sticky md:top-0 z-[999] animate-slide-from-top', 
       {
         "bg-transparent": !scrollDown,
         // "bg-[#BA78D9] shadow-lg": scrollDown, #EEDCF5
@@ -78,7 +78,7 @@ import Logo from '../assets/logo.svg'
           
           <div className='w-[20%] flex justify-end'>
             <div onClick={handleNav} className='block md:hidden'>
-                {nav ? <AiOutlineClose size={30} className='fixed top-8 right-5 fill-[black]' /> : <AiOutlineMenu size={30} className='fixed top-8 right-5 fill-[black]'/>}
+                {nav ? <AiOutlineClose size={30} className='' /> : <AiOutlineMenu size={30} className=''/>}
             </div>
             <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r bg-[#B7BFD8] ease-in-out duration-500 z-[999]' : 'fixed left-[-100%]'}>
                 <img className="h-[100px] mx-5 my-10" src={Logo} alt="" />
