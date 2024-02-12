@@ -19,7 +19,6 @@ body {
   border-radius: 100px;
   border: 1px solid rgba(255,255,255,0.4);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
-  z-index: 100;
 }
 
 .glass-form {
@@ -29,7 +28,6 @@ body {
   border-radius: 50px;
   border: 1px solid rgba(255,255,255,0.4);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
-  z-index: 100;
 }
 .glass-form-box {
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0));
@@ -38,7 +36,6 @@ body {
   border-radius: 50px;
   border: 1px solid linear-gradient(135deg, rgba(186, 122, 217, 1), rgba(184, 192, 217, 1));
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
-  z-index: 100;
 }
 
 .main-bg {
@@ -133,4 +130,13 @@ body {
 
 .animate-zoom-in {
   animation: zoomIn 1.5s ease forwards;
+}
+
+@keyframes slideIn {
+  from {
+      transform: translateX(100%);
+  }
+  to {
+      transform: translateX(0);
+  }
 }
