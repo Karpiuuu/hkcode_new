@@ -2,10 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("http://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 
 html {
   font-family: Roboto;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #B7BFD8;
 }
 
 .glass {
@@ -18,8 +22,32 @@ html {
   z-index: 100;
 }
 
+.glass-form {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 50px;
+  border: 1px solid rgba(255,255,255,0.4);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
+  z-index: 100;
+}
+.glass-form-box {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 50px;
+  border: 1px solid linear-gradient(135deg, rgba(186, 122, 217, 1), rgba(184, 192, 217, 1));
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
+  z-index: 100;
+}
+
 .main-bg {
   background: url("./assets/bg.png");
+  background-size: cover;
+}
+
+.bg-contact {
+  background: url("./assets/bg_contact.png");
   background-size: cover;
 }
 
@@ -89,4 +117,20 @@ html {
 
 .animate-fade-in {
   animation: fadeIn 1.5s ease-in-out;
+}
+
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-zoom-in {
+  animation: zoomIn 1.5s ease forwards;
 }

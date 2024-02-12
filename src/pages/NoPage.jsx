@@ -1,8 +1,14 @@
 import React from 'react'
+import Footer from '../compontents/Footer'
+import Navbar from '../compontents/Navbar'
 
 function NoPage() {
   return (
-    <div>NoPage</div>
+    <div className='main-bg'>
+      <Navbar />
+      <div className='h-screen bg-red-50'></div>
+      <Footer />
+    </div>
   )
 }
 

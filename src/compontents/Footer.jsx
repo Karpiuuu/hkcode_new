@@ -19,10 +19,11 @@ function Footer() {
         </div>
         <div>
           <h2 className='text-[#333333] font-extrabold text-[20px] pt-[20px] md:pt-0'>Odnośniki</h2>
-          <p className='text-[18px] pt-2 font-normal text-[#333333]'><a href="/o-nas">O nas</a></p>
-          <p className='text-[18px] pt-2 font-normal text-[#333333]'><a href="/oferta">Oferta</a></p>
-          <p className='text-[18px] pt-2 font-normal text-[#333333]'><a href="/portfolio">Portfolio</a></p>
-          <p className='text-[18px] pt-2 font-normal text-[#333333]'><a href="/opinie">Opinie</a></p>
+          <p className='text-[18px] pt-2 font-normal text-[#333333]'><a href="/home#o-nas">O nas</a></p>
+          <p className='text-[18px] pt-2 font-normal text-[#333333]'><a href="/home#oferta">Oferta</a></p>
+          <p className='text-[18px] pt-2 font-normal text-[#333333]'><a href="/home#portfolio">Portfolio</a></p>
+          <p className='text-[18px] pt-2 font-normal text-[#333333]'><a href="/home#opinie">Opinie</a></p>
+          <p className='text-[18px] pt-2 font-normal text-[#333333]'><a href="/contact">Kontakt</a></p>
         </div>
         <div>
           <h2 className='text-[#333333] font-extrabold text-[20px] pt-[20px] md:pt-0'>O nas</h2>

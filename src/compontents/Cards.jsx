@@ -34,7 +34,7 @@ const Cards = () => {
         };
     }, []);
   return (
-    <div className='w-full pt-[80px] md:pt-[10rem] pb-[40px] px-4 bg-white rounded-t-[100px] xl:rounded-bl-[500px]'>
+    <div className='w-full pt-[80px] md:pt-[10rem] pb-[40px] px-4 bg-white rounded-t-[100px] xl:rounded-bl-[500px]' id='oferta'>
         <div className='flex md:hidden justify-center'>
         <img src={Offery} alt="napis oferta" className='w-[320px] pb-[80px]'/>
         </div>
@@ -44,7 +44,7 @@ const Cards = () => {
                     <img className='w-20 mx-auto mt-[-3rem] bg-transparent' src={Single} alt="" />
                     <h2 className='text-2xl font-bold text-center py-8'>Strony internetowe</h2>
                     <p className='text-center text-[18px] text-[#333333]'>Donec laoreet, augue non fermentum feugiat, libero enim tincidunt lectus, cursus sagittis dolor augue id elit.</p>
-                    <button className='text-[#333333] text-[18px] underline mt-[80px] pb-[20px] font-bold hover:scale-105 duration-300'>Dowiedz się więcej</button>
+                    <button className='text-[#333333] text-[18px] underline mt-[80px] pb-[20px] font-bold hover:scale-105 duration-300'><a href="/website_offer">Dowiedz się więcej</a></button>
                     </div>
             </div>
             <div className=''>
@@ -52,7 +52,7 @@ const Cards = () => {
                      <img className='w-20 mx-auto mt-[-3rem] bg-transparent' src={Triple} alt="" />
                      <h2 className='text-2xl font-bold text-center py-8'>Sklepy internetowe</h2>
                      <p className='text-center text-[18px] text-[#333333]'>Donec laoreet, augue non fermentum feugiat, libero enim tincidunt lectus, cursus sagittis dolor augue id elit.</p>
-                     <button className='text-[#333333] text-[18px] underline mt-[80px] font-bold hover:scale-105 duration-300'>Dowiedz się więcej</button>
+                     <button className='text-[#333333] text-[18px] underline mt-[80px] font-bold hover:scale-105 duration-300'><a href="/shops">Dowiedz się więcej</a></button>
                     </div>
                     
             </div>
@@ -61,7 +61,7 @@ const Cards = () => {
                      <img className='w-20 mx-auto mt-[-3rem] bg-transparent' src={Double} alt="" />
                      <h2 className='text-2xl font-bold text-center py-8'>Social Media Marketing</h2>
                      <p className='text-center text-[18px] text-[#333333]'>Donec laoreet, augue non fermentum feugiat, libero enim tincidunt lectus, cursus sagittis dolor augue id elit.</p>
-                     <button className='text-[#333333] text-[18px] underline mt-[80px] font-bold hover:scale-105 duration-300'>Dowiedz się więcej</button>
+                     <button className='text-[#333333] text-[18px] underline mt-[80px] font-bold hover:scale-105 duration-300'><a href="/socialmedia">Dowiedz się więcej</a></button>
                     </div>
                     
             </div>
@@ -71,7 +71,7 @@ const Cards = () => {
             
         </div>
         <div className='hidden md:flex justify-end pt-[100px]'>
-            <img src={Offery} alt="napis oferta" className='xl:w-[1000px]'/>
+            <img src={Offery} alt="napis oferta" className={`xl:w-[1000px] ${isVisible ? 'animate-slide-from-right' : ''}`}/>
         </div>
     </div>
   )
