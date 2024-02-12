@@ -140,3 +140,10 @@ body {
       transform: translateX(0);
   }
 }
+
+.grecaptcha-badge {
+  position: fixed !important;
+    bottom: 10px !important;
+    left: 10px !important;
+    z-index: 9999 !important;
+}
