@@ -66,7 +66,7 @@ const Navbar = () => {
                   onMouseLeave={handleMouseLeave}
                   onTouchStart={() => handleTouchStart(index)}
                   onTouchEnd={handleTouchEnd}
-                  onClick={handleNavItemClick} // Dodajemy obsługę kliknięcia
+                  onClick={handleNavItemClick}
                 >
                   {element}
                 </li>
@@ -91,7 +91,7 @@ const Navbar = () => {
                   onMouseLeave={handleMouseLeave}
                   onTouchStart={() => handleTouchStart(index)}
                   onTouchEnd={handleTouchEnd}
-                  onClick={handleNavItemClick} // Dodajemy obsługę kliknięcia
+                  onClick={handleNavItemClick}
                 >
                   {element}
                 </li>

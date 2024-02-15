@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Articles() {
+function WebPageArticle() {
   return (
     <div className='w-full px-4'>
         <div className='max-w-[1240px] mx-auto'>
@@ -629,4 +629,4 @@ function Articles() {
   )
 }
 
-export default Articles
+export default WebPageArticle
