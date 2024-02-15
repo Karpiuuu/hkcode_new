@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Articles() {
+function WebPageArticle() {
   return (
     <div>
         <header class="bg-white shadow">
@@ -35,4 +35,4 @@ function Articles() {
   )
 }
 
-export default Articles
+export default WebPageArticle

@@ -6,6 +6,9 @@ import Contact from './pages/Contact';
 import Website_Offer from './pages/Website_Offer';
 import Social_Media_Marketing from './pages/Social_Media_Marketing';
 import ShopsOffer from './pages/ShopsOffer';
+import ArticlesPage from './pages/ArticlesPage';
+
+import WebPageArticle from './articles/WebPageArticle'
 
 
 
@@ -20,6 +23,8 @@ function App() {
           <Route path="/website_offer" element={<Website_Offer />} />
           <Route path="/socialmedia" element={<Social_Media_Marketing />}/>
           <Route path="/shops" element={<ShopsOffer />}/>
+          <Route path="/blog" element={<ArticlesPage />} />
+          <Route path="/webpagearticle" element={<WebPageArticle/>}/>
           <Route path="*" element={<NoPage />}/>
         </Routes>
       </BrowserRouter>
