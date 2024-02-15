@@ -28,6 +28,7 @@
     "react-id-swiper": "^4.0.0",
     "react-router-dom": "^6.22.0",
     "react-scripts": "5.0.1",
+    "react-truncate": "^2.4.0",
     "react-typed": "^2.0.12",
     "stream-browserify": "^3.0.0",
     "stream-http": "^3.2.0",

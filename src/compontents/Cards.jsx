@@ -1,8 +1,8 @@
 import React, { useRef, useEffect, useState } from 'react';
-import Single from '../assets/strony.png'
-import Triple from '../assets/sklepy.png'
-import Double from '../assets/marketing.png'
-import Offery from '../assets/OFERTA.png'
+import Single from '../assets/strony.webp'
+import Triple from '../assets/sklepy.webp'
+import Double from '../assets/marketing.webp'
+import Offery from '../assets/OFERTA.webp'
 
 
 

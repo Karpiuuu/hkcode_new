@@ -39,12 +39,12 @@ body {
 }
 
 .main-bg {
-  background: url("./assets/bg.png");
+  background: url("./assets/bg.webp");
   background-size: cover;
 }
 
 .bg-contact {
-  background: url("./assets/bg_contact.png");
+  background: url("./assets/bg-contact.webp");
   background-size: cover;
 }
 

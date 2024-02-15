@@ -1,8 +1,8 @@
 import React, {useState, useRef, useEffect} from 'react'
 
-import Slider1 from '../assets/portfolio_hk.png'
-import StronaLogo from '../assets/strony.png'
-import Slider2 from '../assets/gospodarna.png'
+import Slider1 from '../assets/portfolio_hk.webp'
+import StronaLogo from '../assets/strony.webp'
+import Slider2 from '../assets/gospodarna.webp'
 
 import 'swiper/swiper-bundle.css';
 import { Swiper, SwiperSlide } from 'swiper/react';

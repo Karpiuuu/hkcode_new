@@ -1,7 +1,7 @@
 import React from 'react'
 import { ReactTyped } from "react-typed";
 
-import Kula from '../assets/kula.png'
+import Kula from '../assets/kula.webp'
 
 function Hero() {
   return (

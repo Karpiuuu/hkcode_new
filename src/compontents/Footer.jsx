@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Logo from '../assets/Logo_rozowe.png'
+import Logo from '../assets/Logo_rozowe.webp'
 
 function Footer() {
   return (

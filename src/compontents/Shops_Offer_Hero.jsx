@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Woo from '../assets/woo.png'
-import ReactIMG from '../assets/react.png'
+import Woo from '../assets/woo.webp'
+import ReactIMG from '../assets/react.webp'
 
 function Shops_Offer_Hero() {
   return (
