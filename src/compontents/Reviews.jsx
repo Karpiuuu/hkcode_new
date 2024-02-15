@@ -39,7 +39,7 @@ const Reviews = () => {
     }, []);
 
   return (
-    <div className='w-full flex mx-auto justify-center pb-[150px]' id='opinie'>
+    <div className='w-full flex mx-auto justify-center pb-[150px] px-4' id='opinie'>
         <div ref={divRef} className='max-w-[1240px]'>
             <h2 className={`flex justify-center font-black text-[87px] py-[80px] text-white ${isVisible ? 'animate-zoom-in' : ''}`}>OPINIE</h2>
             <div className={`elfsight-app-ef704e39-b761-478c-8af9-5ecd593e4a34 review ${isVisible ? 'animate-zoom-in' : ''}`} data-elfsight-app-lazy></div>

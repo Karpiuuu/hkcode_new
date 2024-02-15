@@ -5,10 +5,10 @@ import ReactIMG from '../assets/react.png'
 
 function Shops_Offer_Hero() {
   return (
-    <div className='w-full h-screen md:mb-0 mb-[1000px]'>
+    <div className='w-full h-screen md:mb-0 mb-[1000px] px-4'>
         <div className='max-w-[1240px] mx-auto flex flex-col'>
             <div className='flex justify-center pt-[120px] pb-[50px]'>
-                <h1 className='uppercase text-[white] font-bold text-[79px] animate-zoom-in'>pakiety cenowe</h1>
+                <h1 className='uppercase text-[white] font-bold text-[79px] animate-zoom-in text-center'>pakiety cenowe</h1>
             </div>
             <div className='mx-auto grid md:grid-cols-2 gap-10 items-center'>
                 <div className='glass-form w-[500px] h-[300px] flex flex-col items-center text-center leading-none py-10 px-10 animate-zoom-in'>

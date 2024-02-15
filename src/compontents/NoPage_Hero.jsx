@@ -2,7 +2,7 @@ import React from 'react'
 
 function NoPage_Hero() {
   return (
-    <div className='w-full'>
+    <div className='w-full px-4'>
 
         <div className='max-w-[1240px] grid justify-center mx-auto h-screen py-[10rem]'>
         <h1 className='uppercase text-[white] font-bold text-[79px] animate-zoom-in'>ta strona nie istnieje</h1>

@@ -4,7 +4,7 @@ import Logo from '../assets/Logo_rozowe.png'
 
 function Footer() {
   return (
-    <div className='w-full bg-[#e5e5e5]'>
+    <div className='w-full bg-[#e5e5e5] px-4'>
       <div className='max-w-[1240px] mx-auto grid md:grid-cols-4 pt-[100px]'>
         <div>
           <h2 className='text-[#333333] font-extrabold text-[20px] pt-[20px] md:pt-0'>Informacje</h2>
@@ -24,6 +24,7 @@ function Footer() {
           <p className='text-[18px] pt-2 font-normal text-[#333333]'><a href="/home#portfolio">Portfolio</a></p>
           <p className='text-[18px] pt-2 font-normal text-[#333333]'><a href="/home#opinie">Opinie</a></p>
           <p className='text-[18px] pt-2 font-normal text-[#333333]'><a href="/contact">Kontakt</a></p>
+          <p className='text-[18px] pt-2 font-normal text-[#333333]'><a href="/blog">Blog</a></p>
         </div>
         <div>
           <h2 className='text-[#333333] font-extrabold text-[20px] pt-[20px] md:pt-0'>O nas</h2>

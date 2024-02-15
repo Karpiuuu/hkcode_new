@@ -29,7 +29,7 @@ function Form_Hero() {
 
         try {
             await emailjs.sendForm('service_sbazo4z', 'template_dgwotf4', form.current, {
-                publicKey: '6LdIk3ApAAAAAE6ljh7ouljJG-mZZtkgX_QJbQ1A',
+                publicKey: 'Uz10yZXle6TLMXztB',
                 token: token
             });
 
@@ -44,7 +44,7 @@ function Form_Hero() {
 
     return (
         <div className='w-full'>
-            <div className='hidden max-w-[1240px] mx-auto md:grid md:grid-cols-2 py-[100px]'>
+            <div className='hidden max-w-[1240px] mx-auto md:grid md:grid-cols-2 py-[100px] px-4'>
                 <div className='flex flex-col w-[80%] animate-slide-from-left mx-auto md:mx-[1px]'>
                     <div className='flex glass-form-box p-8 '>
                         <div className='mx-auto w-full'>
@@ -84,7 +84,7 @@ function Form_Hero() {
                 </div>
                 <div className='animate-slide-from-right'>
                     <h2 className='text-[white] text-[50px] font-medium'>Skontaktuj się z nami</h2>
-                    <p className='text-[#333333] text-[20px] font-normal py-[10px] mb-[20px]'>Napisz parę słów od serca massa metus, dapibus ac sagittis eget, gravida sit amet magna. Vivamus feugiat gravida tellus ac iaculis.</p>
+                    <p className='text-[#333333] text-[20px] font-normal py-[10px] mb-[20px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veniam nesciunt impedit quibusdam fugiat laudantium odit nihil mollitia, repellat rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, eum!</p>
                 </div>
             </div>
             <ReCAPTCHA

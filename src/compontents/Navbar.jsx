@@ -46,7 +46,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={classNames('w-full md:sticky md:top-0 z-[999] animate-slide-from-top', {
+    <div className={classNames('w-full md:sticky md:top-0 z-[999] animate-slide-from-top px-4', {
       "bg-transparent": !scrollDown,
       "bg-[#B7BFD8] shadow-lg": scrollDown,
     })}>
