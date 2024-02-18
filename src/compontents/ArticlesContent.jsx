@@ -1,9 +1,6 @@
 import React from 'react'
 
 import data from '../json/Articles.json'
-import Truncate from 'react-truncate';
-
-
 
 function ArticlesContent() {
 

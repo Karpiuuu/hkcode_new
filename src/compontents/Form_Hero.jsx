@@ -2,6 +2,10 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import ReCAPTCHA from "react-google-recaptcha";
 
+import { BsTelephone } from "react-icons/bs";
+import { CiMail } from "react-icons/ci";
+
+
 function Form_Hero() {
     const form = useRef();
     const [showSuccessMessage, setShowSuccessMessage] = useState(false);
@@ -44,8 +48,24 @@ function Form_Hero() {
 
     return (
         <div className='w-full'>
-            <div className='hidden max-w-[1240px] mx-auto md:grid md:grid-cols-2 py-[100px] px-4'>
+            <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 py-[100px] px-4'>
+                {/* only on mobile phones visible */}
+                <div className='animate-slide-from-right block md:hidden text-center'>
+                    <h2 className='text-[white] text-[50px] font-medium'>Skontaktuj się z nami</h2>
+                    <p className='text-[#333333] text-[20px] font-normal py-[10px] mb-[20px]'>Cieszymy się, że jesteś zainteresowany współpracą z nami! Nasz zespół jest gotowy odpowiedzieć na wszystkie Twoje pytania. Skontaktuj się z nami, aby rozpocząć rozmowę na temat Twoich potrzeb biznesowych. Jesteśmy tu, aby pomóc Ci osiągnąć sukces w świecie cyfrowym.</p>
+                    <div className='flex items-center gap-3 py-2 justify-center'>
+                    <BsTelephone size={30} color='white' className=''/>
+                    <a href="tel:+48536276886" className=''><span className='text-white text-[20px]'>536 276 886</span></a>
+                    </div>
+                    <div className='flex items-center gap-3 py-4 justify-center'>
+                    <CiMail size={30} color='white'/>
+                    <a href="mailto:bok@hkcode.pl" className=''><span className='text-white text-[20px]'>bok@hkcode.pl</span></a>
+                    </div>
+                    
+                    
+                </div>
                 <div className='flex flex-col w-[80%] animate-slide-from-left mx-auto md:mx-[1px]'>
+                    
                     <div className='flex glass-form-box p-8 '>
                         <div className='mx-auto w-full'>
                             <form ref={form} onSubmit={sendEmail} className='flex flex-col'>
@@ -82,9 +102,19 @@ function Form_Hero() {
                         </div>
                     </div>
                 </div>
-                <div className='animate-slide-from-right'>
+                <div className='animate-slide-from-right hidden md:block'>
                     <h2 className='text-[white] text-[50px] font-medium'>Skontaktuj się z nami</h2>
-                    <p className='text-[#333333] text-[20px] font-normal py-[10px] mb-[20px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veniam nesciunt impedit quibusdam fugiat laudantium odit nihil mollitia, repellat rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, eum!</p>
+                    <p className='text-[#333333] text-[20px] font-normal py-[10px] mb-[20px]'>Cieszymy się, że jesteś zainteresowany współpracą z nami! Nasz zespół jest gotowy odpowiedzieć na wszystkie Twoje pytania. Skontaktuj się z nami, aby rozpocząć rozmowę na temat Twoich potrzeb biznesowych. Jesteśmy tu, aby pomóc Ci osiągnąć sukces w świecie cyfrowym.</p>
+                    <div className='flex items-center gap-3 py-2'>
+                    <BsTelephone size={30} color='white'/>
+                    <a href="tel:+48536276886" className=''><span className='text-white text-[20px]'>536 276 886</span></a>
+                    </div>
+                    <div className='flex items-center gap-3 py-2'>
+                    <CiMail size={30} color='white'/>
+                    <a href="mailto:bok@hkcode.pl" className=''><span className='text-white text-[20px]'>bok@hkcode.pl</span></a>
+                    </div>
+                    
+                    
                 </div>
             </div>
             <ReCAPTCHA
@@ -93,7 +123,7 @@ function Form_Hero() {
                                 sitekey="6LdIk3ApAAAAAE6ljh7ouljJG-mZZtkgX_QJbQ1A"
                                 theme="dark"
                                 badge="bottomleft"
-                            />
+            />
         </div>
     );
 }

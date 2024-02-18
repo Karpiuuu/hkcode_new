@@ -27,7 +27,7 @@ function Hero() {
               {/* <h2 className='text-[#BA74D9] text-[55px] font-bold'>STRONY INTERNETOWE</h2> */}
               <p className='text-[30px] pt-[20px]'>Oferujemy wszystko czego potrzebujesz,<br></br>żeby zainstnieć w internecie.</p>
               <div className='grid md:grid-cols-2 pt-[80px]'>
-                <div className=''><a href="/contact"><button className='flex mb-[15px] hover:scale-105 duration-300 bg-white text-black text-[18px] rounded-full w-[200px] h-[52px] items-center justify-center'>Popros o wycenę</button></a></div>
+                <div className=''><a href="/contact"><button className='flex mb-[15px] hover:scale-105 duration-300 bg-white text-black text-[18px] rounded-full w-[200px] h-[52px] items-center justify-center'>Poproś o wycenę</button></a></div>
                 <div className=''><a href="/home#oferta"><button className='flex md:ml-[-80px] hover:scale-105 duration-300 bg-transparent text-white border-[1px] text-[18px] rounded-full w-[200px] h-[52px] items-center justify-center'>Sprawdź ofertę</button></a></div>
                 
               </div>
