@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from '../compontents/Navbar'
-import Footer from '../compontents/Footer'
+import Navbar from '../../compontents/Navbar'
+import Footer from '../../compontents/Footer'
 
 function WhenSitesArticle() {
   return (

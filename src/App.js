@@ -1,4 +1,5 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import { Helmet } from 'react-helmet';
 
 import Home from './pages/Home'
 import NoPage from './pages/NoPage';
@@ -7,33 +8,47 @@ import Website_Offer from './pages/Website_Offer';
 import Social_Media_Marketing from './pages/Social_Media_Marketing';
 import ShopsOffer from './pages/ShopsOffer';
 import ArticlesPage from './pages/ArticlesPage'
-import WebPageArticle from './articles/WebPageArticle';
-import BlockedPageArticle from './articles/BlockedPageArticle'
-import BluePageArticle from './articles/BluePageArticle'
-import DestinationPageArticle from './articles/DestinationPageArticle'
-import FactChekingPageArticle from './articles/FactChekingPageArticle'
-import FreePageArticle from './articles/FreePageArticle'
-import HowPageLooksLikeArticle from './articles/HowPageLooksLikeArticle'
-import HowPageWorksArticle from './articles/HowPageWorksArticle'
-import HowToCheckIfPageIsRealArticle from './articles/HowToCheckIfPageIsRealArticle'
-import HowToCheckIfPageIsSecureArticle from './articles/HowToCheckIfPageIsSecureArticle'
-import OldPageArticle from './articles/OldPageArticle'
-import OpenPageArticle from './articles/OpenPageArticle'
-import ResultPageArticle from './articles/ResultPageArticle'
-import UnMaterialArticle from './articles/UnMaterialArticle'
-import WhenPageWasMadeArticle from './articles/WhenPageWasMadeArticle'
-import WhenSitesArticle from './articles/WhenSitesArticle'
-import WhereBuyPageArticle from './articles/WhereBuyPageArticle'
-import WhereMakePageArticle from './articles/WhereMakePageArticle'
-import WherePageArticle from './articles/WherePageArticle'
-import WhereToBlockPageArticle from './articles/WhereToBlockPageArticle'
-import WhereToUnBlockPageArticle from './articles/WhereToUnBlockPageArticle'
-import WorkPageArticle from './articles/WorkPageArticle'
+import BlockedPageArticle from './articles/websites/BlockedPageArticle'
+import BluePageArticle from './articles/websites/BluePageArticle'
+import DestinationPageArticle from './articles/websites/DestinationPageArticle'
+import FactChekingPageArticle from './articles/websites/FactChekingPageArticle'
+import FreePageArticle from './articles/websites/FreePageArticle'
+import HowPageLooksLikeArticle from './articles/websites/HowPageLooksLikeArticle'
+import HowPageWorksArticle from './articles/websites/HowPageWorksArticle'
+import HowToCheckIfPageIsRealArticle from './articles/websites/HowToCheckIfPageIsRealArticle'
+import HowToCheckIfPageIsSecureArticle from './articles/websites/HowToCheckIfPageIsSecureArticle'
+import OldPageArticle from './articles/websites/OldPageArticle'
+import OpenPageArticle from './articles/websites/OpenPageArticle'
+import ResultPageArticle from './articles/websites/ResultPageArticle'
+import UnMaterialArticle from './articles/websites/UnMaterialArticle'
+import WhenPageWasMadeArticle from './articles/websites/WhenPageWasMadeArticle'
+import WhenSitesArticle from './articles/websites/WhenSitesArticle'
+import WhereBuyPageArticle from './articles/websites/WhereBuyPageArticle'
+import WhereMakePageArticle from './articles/websites/WhereMakePageArticle'
+import WherePageArticle from './articles/websites/WherePageArticle'
+import WhereToBlockPageArticle from './articles/websites/WhereToBlockPageArticle'
+import WhereToUnBlockPageArticle from './articles/websites/WhereToUnBlockPageArticle'
+import WorkPageArticle from './articles/websites/WorkPageArticle'
+import WebPageArticle from './articles/websites/WebPageArticle';
+import AgencyArticleExample from './articles/marketing_agency/AgencyArticleExample';
 
 
 function App() {
   return (
     <div>
+      <Helmet>
+          <title>Agencja Marketingowa HKCode | Projektowanie Stron, Media Marketing, AI Marketing</title>
+          <meta name="description" content="Agencja marketingowa HKCode oferuje kompleksowe usługi w zakresie projektowania stron internetowych, media marketingu oraz wykorzystywania sztucznej inteligencji w marketingu. Skuteczne strategie online dla Twojej firmy!" />
+          <meta name="keywords" content="agencja marketingowa, projektowanie stron, media marketing, AI marketing, strategie online" />
+          <meta name="author" content="Agencja Marketingowa HKCode" />
+          <meta property="og:title" content="Agencja Marketingowa HKCode | Projektowanie Stron, Media Marketing, AI Marketing" />
+          <meta property="og:description" content="Agencja marketingowa HKCode oferuje kompleksowe usługi w zakresie projektowania stron internetowych, media marketingu oraz wykorzystywania sztucznej inteligencji w marketingu. Skuteczne strategie online dla Twojej firmy!" />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://hkcode.pl" />
+          <meta property="og:image" content="https://hkcode.pl/" />
+          <meta name="twitter:title" content="Agencja Marketingowa HKCode | Projektowanie Stron, Media Marketing, AI Marketing" />
+          <meta name="twitter:description" content="Agencja marketingowa HKCode oferuje kompleksowe usługi w zakresie projektowania stron internetowych, media marketingu oraz wykorzystywania sztucznej inteligencji w marketingu. Skuteczne strategie online dla Twojej firmy!" />
+      </Helmet>
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />}/>
@@ -66,6 +81,7 @@ function App() {
           <Route path ="/whereblock" element={<WhereToBlockPageArticle/>}/>
           <Route path ="/whereunblock" element={<WhereToUnBlockPageArticle/>}/>
           <Route path ="/workpage" element={<WorkPageArticle/>}/>
+          <Route path ="/agencyexample" element={<AgencyArticleExample/>}/>
           {/* NoPage path */}
           <Route path="*" element={<NoPage />}/>
         </Routes>
