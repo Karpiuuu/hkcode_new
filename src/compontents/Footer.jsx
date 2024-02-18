@@ -2,6 +2,9 @@ import React from 'react'
 
 import Logo from '../assets/Logo_rozowe.webp'
 
+import { BsTelephone } from "react-icons/bs";
+import { CiMail } from "react-icons/ci";
+
 function Footer() {
   return (
     <div className='w-full bg-[#e5e5e5] px-4'>
@@ -14,8 +17,14 @@ function Footer() {
         </div>
         <div>
           <h2 className='text-[#333333] font-extrabold text-[20px] pt-[20px] md:pt-0'>Kontakt</h2>
-          <p className='text-[18px] pt-2 font-normal text-[#333333]'>bok@hkcode.pl</p>
-          <p className='text-[18px] pt-2 font-normal text-[#333333]'>536 276 886</p>
+          <div className='flex items-center gap-2'>
+            <BsTelephone size={20} color='black' className=''/>
+            <a href="tel:+48536276886"><span className='text-black text-[18px] hover:scale-110 duration-300'>536 276 886</span></a>
+          </div>
+          <div className='flex items-center gap-2'>
+          <CiMail size={20} color='black'/>
+          <a href="mailto:bok@hkcode.pl"><span className='text-black text-[18px] hover:scale-110 duration-300'>bok@hkcode.pl</span></a>
+          </div>
         </div>
         <div>
           <h2 className='text-[#333333] font-extrabold text-[20px] pt-[20px] md:pt-0'>Odnośniki</h2>

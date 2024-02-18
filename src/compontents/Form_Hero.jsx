@@ -118,11 +118,11 @@ function Form_Hero() {
                 </div>
             </div>
             <ReCAPTCHA
-                                ref={recaptchaRef}
-                                size="invisible"
-                                sitekey="6LdIk3ApAAAAAE6ljh7ouljJG-mZZtkgX_QJbQ1A"
-                                theme="dark"
-                                badge="bottomleft"
+                ref={recaptchaRef}
+                size="invisible"
+                sitekey="6LdIk3ApAAAAAE6ljh7ouljJG-mZZtkgX_QJbQ1A"
+                theme="dark"
+                badge="bottomleft"
             />
         </div>
     );
