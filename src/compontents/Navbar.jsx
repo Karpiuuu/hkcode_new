@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import classNames from "classnames";
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import 'animate.css/animate.min.css';
-import Logo from '../assets/logo.svg';
+import Logo from '../assets/logo.webp';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -35,6 +35,7 @@ const Navbar = () => {
   };
 
   useEffect(() => {
+
     const handleScroll = () => {
       const currentScrollPos = window.pageYOffset;
       const isScrollDown = currentScrollPos > 100;
@@ -45,6 +46,7 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+
   return (
     <div className={classNames('w-full md:sticky md:top-0 z-[999] animate-slide-from-top px-4', {
       "bg-transparent": !scrollDown,
@@ -52,7 +54,7 @@ const Navbar = () => {
     })}>
       <div className='flex items-center h-24 max-w-[1240px] mx-auto text-white'>
         <div className='w-[20%]'>
-          <a href="/home"><img className="h-[60px]" src={Logo} alt="" /></a>
+          <a href="/home"><img className="h-[60px]" src={Logo} alt="Logo HKCode" /></a>
         </div>
         <div className='w-full'>
           <div className='hidden md:flex mx-auto glass w-[60%] h-[60px]'>
@@ -80,7 +82,7 @@ const Navbar = () => {
             {nav ? <AiOutlineClose size={30} className='fixed top-5 right-5' /> : <AiOutlineMenu size={30} className='' />}
           </div>
           <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r bg-[#B7BFD8] ease-in-out duration-500 z-[999]' : 'fixed left-[-100%]'}>
-          <a href="/home"><img className="h-[100px] mx-5 my-10" src={Logo} alt="" /></a>
+          <a href="/home"><img className="h-[60px] mx-5 my-10" src={Logo} alt="Logo HKMobile" /></a>
             <ul className='uppercase p-4'>
               {lista.map((element, index) => (
                 <a href={`/home#${element.toLowerCase().replace(' ', '-')}`}>

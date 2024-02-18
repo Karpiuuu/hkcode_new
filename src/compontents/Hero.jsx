@@ -33,7 +33,7 @@ function Hero() {
               </div>
             </div>
             <div className='animate-slide-from-right'>
-              <img src={Kula} alt="dryfujaca kula" className='hidden md:flex w-[600px] mt-[-50px] ml-[50px] absolute animate-drift-up-down'/>
+              <img src={Kula} alt="dryfujaca kula" className='hidden md:flex w-[600px] absolute animate-drift-up-down'/>
             </div>
         </div>
     </div>
