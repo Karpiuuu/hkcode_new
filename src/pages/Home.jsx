@@ -6,6 +6,7 @@ import Reviews from '../compontents/Reviews';
 import Portfolio from '../compontents/Portfolio';
 import Footer from '../compontents/Footer';
 import LoadingComponent from '../compontents/LoadingComponent';
+import BlogComponent from '../compontents/BlogComponent';
 
 function Home() {
 
@@ -28,6 +29,7 @@ function Home() {
       <Cards />
       <Reviews />
       <Portfolio />
+      <BlogComponent />
       <Footer />
       {/* {
         isLoading ? (

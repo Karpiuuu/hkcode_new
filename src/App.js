@@ -30,7 +30,19 @@ import WhereToBlockPageArticle from './articles/websites/WhereToBlockPageArticle
 import WhereToUnBlockPageArticle from './articles/websites/WhereToUnBlockPageArticle'
 import WorkPageArticle from './articles/websites/WorkPageArticle'
 import WebPageArticle from './articles/websites/WebPageArticle';
-import AgencyArticleExample from './articles/marketing_agency/AgencyArticleExample';
+import WhyMarketingArticle from './articles/marketing_agency/WhyMarketingArticle';
+import MarketingImportantArticle from './articles/marketing_agency/MarketingImportantArticle';
+import DirectMarketingAgency from './articles/marketing_agency/DirectMarketingAgency';
+import WhyNetworMarketingArticle from './articles/marketing_agency/WhyNetworMarketingArticle';
+import WhisperingMarketingArticle from './articles/marketing_agency/WhisperingMarketingArticle';
+import StudyingMarketingArticle from './articles/marketing_agency/StudyingMarketingArticle';
+import WarsawMarketingArticle from './articles/marketing_agency/WarsawMarketingArticle';
+import MadeArticle from './articles/marketing_agency/MadeArticle';
+import StudeMarketingArticle from './articles/marketing_agency/StudeMarketingArticle';
+import MarketigInfluenceArticle from './articles/marketing_agency/MarketigInfluenceArticle';
+import ContactMarketingArticle from './articles/marketing_agency/ContactMarketingArticle';
+import EmailMarketingArticle from './articles/marketing_agency/EmailMartketingArticle';
+import OnlineMarketingArticle from './articles/marketing_agency/OnlineMarketingArticle';
 
 
 function App() {
@@ -81,7 +93,19 @@ function App() {
           <Route path ="/whereblock" element={<WhereToBlockPageArticle/>}/>
           <Route path ="/whereunblock" element={<WhereToUnBlockPageArticle/>}/>
           <Route path ="/workpage" element={<WorkPageArticle/>}/>
-          <Route path ="/agencyexample" element={<AgencyArticleExample/>}/>
+          <Route path ='/whymarketing' element={<WhyMarketingArticle />}/>
+          <Route path ='/importantmarketing' element={<MarketingImportantArticle />}/>
+          <Route path ='/directmarketing' element={<DirectMarketingAgency />}/>
+          <Route path ='/networkmarketing' element={<WhyNetworMarketingArticle />}/>
+          <Route path ='/whisperingmarketing' element={<WhisperingMarketingArticle />}/>
+          <Route path ='/studyingmarketing' element={<StudyingMarketingArticle />}/>
+          <Route path ='/warsawmarketing' element={<WarsawMarketingArticle />}/>
+          <Route path ='/mademarketing' element={<MadeArticle />}/>
+          <Route path ='/studemarketing' element={<StudeMarketingArticle />}/>
+          <Route path ='/influencemarketing' element={<MarketigInfluenceArticle />}/>
+          <Route path ='/contactmarketing' element={<ContactMarketingArticle />}/>
+          <Route path ='/emailmarketing' element={<EmailMarketingArticle />}/>
+          <Route path ='/onlinemarketing' element={<OnlineMarketingArticle />}/>
           {/* NoPage path */}
           <Route path="*" element={<NoPage />}/>
         </Routes>

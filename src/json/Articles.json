@@ -130,6 +130,85 @@
         "article_name": "Czemu strona internetowa nie działa?",
         "article_snippet": "Problemy z działaniem strony internetowej mogą wynikać z różnych czynników, a ich rozwiązanie często wymaga interwencji specjalistów zajmujących się tworzeniem stron internetowych. Poniżej przedstawiamy kilka potencjalnych przyczyn...",
         "article_href": "/workpage"
+    },
+    {
+        "id" : 23,
+        "article_name": "Czemu marketing?",
+        "article_snippet": "Marketing online to nieodłączny element współczesnego biznesu. Dzięki odpowiednio zaplanowanym i realizowanym działaniom marketingowym, firmy mogą dotrzeć do swojej docelowej grupy klientów, promować swoje produkty i usługi oraz budować trwałe relacje z klientami.",
+        "article_href": "/whymarketing"
+    },
+    {
+        "id" : 24,
+        "article_name": "Dlaczego marketing jest ważny?",
+        "article_snippet": "Marketing jest nieodłącznym elementem każdej strategii biznesowej. W dzisiejszym konkurencyjnym świecie, prowadzenie skutecznych działań marketingowych ma kluczowe znaczenie dla osiągnięcia sukcesu.",
+        "article_href": "/importantmarketing"
+    },
+    {
+        "id" : 25,
+        "article_name": "Dlaczego marketing bezpośredni?",
+        "article_snippet": "Marketing bezpośredni to skuteczna forma promocji, która pozwala dotrzeć do klientów bezpośrednio, bez pośrednictwa mediów masowych. W dzisiejszym cyfrowym świecie, gdzie konkurencja jest coraz większa, marketing bezpośredni może być kluczowym elementem strategii marketingowej.",
+        "article_href": "/directmarketing"
+    },
+    {
+        "id" : 26,
+        "article_name": "Dlaczego network marketing?",
+        "article_snippet": "Network marketing, znany również jako marketing wielopoziomowy, jest jednym z najefektywniejszych sposobów prowadzenia biznesu online. Polega on na budowaniu sieci dystrybucji przez niezależnych przedsiębiorców, którzy promują produkty lub usługi firmy i zarabiają na prowizjach.",
+        "article_href": "/networkmarketing"
+    },
+    {
+        "id" : 27,
+        "article_name": "Gdzie marketing szeptany?",
+        "article_snippet": "Marketing szeptany, nazywany również marketingiem wirusowym lub marketingiem szeptanym, to strategia promocji, która wykorzystuje siłę przekazu od osoby do osoby w celu szerzenia się informacji o produkcie lub usłudze. To skuteczna forma marketingu online, która wykorzystuje sieć kontaktów i wpływ osób zainteresowanych danym tematem.",
+        "article_href": "/whisperingmarketing"
+    },
+    {
+        "id" : 28,
+        "article_name": "Gdzie studiować maketing?",
+        "article_snippet": "Marketing jest dynamiczną dziedziną, która stale się rozwija. Jeśli jesteś zainteresowany karierą w marketingu, zastanawiasz się pewnie, gdzie warto studiować, aby zdobyć potrzebne umiejętności i wiedzę.",
+        "article_href": "/studyingmarketing"
+    },
+    {
+        "id" : 29,
+        "article_name": "Gdzie studiować marketing w Warszawie?",
+        "article_snippet": "Wybór odpowiedniej uczelni i kierunku studiów to kluczowy krok dla tych, którzy chcą zdobyć wiedzę i umiejętności z zakresu marketingu. Jeśli mieszkasz w Warszawie i zastanawiasz się, gdzie warto studiować marketing, oto kilka propozycji:",
+        "article_href": "/warsawmarketing"
+    },
+    { 
+        "id" : 30,
+        "article_name": "Gdzie powstał marketing?",
+        "article_snippet": "Marketing, jako dziedzina zajmująca się promocją produktów i usług, ma długą historię, sięgającą starożytności. Jednakże, termin 'marketing' w swojej obecnej formie i znaczeniu, zaczął być używany dopiero w XIX wieku.",
+        "article_href": "/mademarketing"
+    },
+    { 
+        "id" : 31,
+        "article_name": "Gdzie isć na studia?",
+        "article_snippet": "Jeśli interesujesz się marketingiem online i planujesz rozpocząć studia na tym kierunku, warto rozejrzeć się za renomowanymi uczelniami oferującymi odpowiednie programy studiów z zakresu marketingu.",
+        "article_href": "/studemarketing"
+    },
+    { 
+        "id" : 32,
+        "article_name": "Jak marketing internetowy wpływa na Tworzenie stron internetowych?",
+        "article_snippet": "Marketing internetowy, zwany również marketingiem online, odgrywa kluczową rolę w promocji stron internetowych oraz generowaniu ruchu na nich. W dzisiejszych czasach, kiedy coraz więcej osób korzysta z Internetu w poszukiwaniu informacji oraz produktów i usług, marketing internetowy stał się nieodzownym elementem strategii biznesowych.",
+        "article_href": "/influencemarketing"
+    },
+    { 
+        "id" : 33,
+        "article_name": "Jak marketing kontaktowy wpływa na Tworzenie stron internetowych?",
+        "article_snippet": "Marketing kontaktowy, znany również jako marketing bezpośredni, jest istotnym elementem strategii marketingowych online. W kontekście biznesu zajmującego się tworzeniem stron internetowych, wykorzystanie skutecznych działań marketingowych kontaktowych może przyczynić się do zwiększenia świadomości marki oraz pozyskania nowych klientów.",
+        "article_href": "/contactmarketing"
+    },
+    { 
+        "id" : 34,
+        "article_name": "Jak skuteczny marketing email wpływa na Tworzenie stron internetowych?",
+        "article_snippet": "Marketing emailowy to potężne narzędzie w rękach specjalistów od marketingu online. W kontekście branży zajmującej się tworzeniem stron internetowych, odpowiednio zaplanowane kampanie emailowe mogą przyczynić się do zwiększenia ruchu na stronie oraz generowania nowych leadów.",
+        "article_href": "/emailmarketing"
+    },
+    {    
+        "id" : 35,
+        "article_name": "Historia Marketingu Online: Kiedy powstał i jak ewoluował",
+        "article_snippet": "Marketing online, w tym marketing internetowy, jest nierozerwalnie związany z rozwojem technologii i internetu. Pomimo że obecnie jest nieodłączną częścią biznesu online, jego początki sięgają lat 90. XX wieku.",
+        "article_href": "/onlinemarketing"
     }
+    
     
 ]
