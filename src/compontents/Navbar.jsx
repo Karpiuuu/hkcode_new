@@ -54,7 +54,9 @@ const Navbar = () => {
     })}>
       <div className='flex items-center h-24 max-w-[1240px] mx-auto text-white'>
         <div className='w-[20%]'>
-          <a href="/home"><img className="h-[60px]" src={Logo} alt="Logo HKCode" /></a>
+          <a href="/home">
+            <img className="h-[60px]" src={Logo} alt="Logo HKCode" />
+            </a>
         </div>
         <div className='w-full'>
           <div className='hidden md:flex mx-auto glass w-[60%] h-[60px]'>

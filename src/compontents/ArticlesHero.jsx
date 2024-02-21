@@ -6,7 +6,7 @@ function ArticlesHero() {
         <div className='max-w-[1240px] mx-auto'>
             <div className='flex flex-col justify-center gap-8'>
                 <div className='mx-auto text-center'>
-                    <h2 className='text-[40px] text-white'>Wybierz temat artykułu</h2>
+                    <h2 className='text-[40px] text-white animate-zoom-in'>Wybierz temat artykułu</h2>
                 </div>
                 
             </div>
