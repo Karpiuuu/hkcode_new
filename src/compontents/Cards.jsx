@@ -40,27 +40,27 @@ const Cards = () => {
         </div>
         <div ref={divRef} className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
             <div className=''>
-                    <div className={`w-full shadow-xl flex flex-col p-4 my-4 rounded-[100px] hover:scale-105 duration-300 bg-[#eeeeee] ${isVisible ? 'animate-fade-in' : ''}`}>
+                    <div className={`w-full h-[450px] shadow-xl flex flex-col p-4 my-4 rounded-[100px] hover:scale-105 duration-300 bg-[#eeeeee] ${isVisible ? 'animate-fade-in' : ''}`}>
                     <img className='w-20 mx-auto mt-[-3rem] bg-transparent' src={Single} alt="" />
                     <h2 className='text-2xl font-bold text-center py-8'>Strony internetowe</h2>
-                    <p className='text-center text-[18px] text-[#333333]'>Donec laoreet, augue non fermentum feugiat, libero enim tincidunt lectus, cursus sagittis dolor augue id elit.</p>
+                    <p className='text-center text-[18px] text-[#333333]'>Uzyskaj wizualny odbiór Twojej marki w przestrzeni cyfrowej, korzystając z nowoczesnego, elastycznego i starannie zaprojektowanego serwisu internetowego.</p>
                     <button className='text-[#333333] text-[18px] underline mt-[80px] pb-[20px] font-bold hover:scale-105 duration-300'><a href="/website_offer">Dowiedz się więcej</a></button>
                     </div>
             </div>
             <div className=''>
-                     <div className={`w-full shadow-xl flex flex-col p-4 my-4 rounded-[100px] hover:scale-105 duration-300 bg-[#eeeeee] ${isVisible ? 'animate-fade-in' : ''}`}>
+                     <div className={`w-full h-[450px] shadow-xl flex flex-col p-4 my-4 rounded-[100px] hover:scale-105 duration-300 bg-[#eeeeee] ${isVisible ? 'animate-fade-in' : ''}`}>
                      <img className='w-20 mx-auto mt-[-3rem] bg-transparent' src={Triple} alt="" />
                      <h2 className='text-2xl font-bold text-center py-8'>Sklepy internetowe</h2>
-                     <p className='text-center text-[18px] text-[#333333]'>Donec laoreet, augue non fermentum feugiat, libero enim tincidunt lectus, cursus sagittis dolor augue id elit.</p>
+                     <p className='text-center text-[18px] text-[#333333]'>Oferujemy profesjonalne tworzenie sklepów internetowych, dopasowane do Twoich potrzeb i oczekiwań. Dzięki naszym rozwiązaniom, łatwość obsługi oraz estetyka idą w parze, zapewniając Ci sukces w e-commerce.</p>
                      <button className='text-[#333333] text-[18px] underline mt-[80px] font-bold hover:scale-105 duration-300'><a href="/shops">Dowiedz się więcej</a></button>
                     </div>
                     
             </div>
             <div className=''>
-                     <div className={`w-full shadow-xl flex flex-col p-4 my-4 rounded-[100px] hover:scale-105 duration-300 bg-[#eeeeee] ${isVisible ? 'animate-fade-in' : ''}`}>
+                     <div className={`w-full h-[450px] shadow-xl flex flex-col p-4 my-4 rounded-[100px] hover:scale-105 duration-300 bg-[#eeeeee] ${isVisible ? 'animate-fade-in' : ''}`}>
                      <img className='w-20 mx-auto mt-[-3rem] bg-transparent' src={Double} alt="" />
                      <h2 className='text-2xl font-bold text-center py-8'>Social Media Marketing</h2>
-                     <p className='text-center text-[18px] text-[#333333]'>Donec laoreet, augue non fermentum feugiat, libero enim tincidunt lectus, cursus sagittis dolor augue id elit.</p>
+                     <p className='text-center text-[18px] text-[#333333]'>Specjalizujemy się w tworzeniu skutecznych strategii promocyjnych na platformach społecznościowych. Zwiększamy zasięg i zaangażowanie, wykorzystując kreatywne treści i analizę danych. Pozwól nam pomóc Ci w budowaniu silnej obecności online.</p>
                      <button className='text-[#333333] text-[18px] underline mt-[80px] font-bold hover:scale-105 duration-300'><a href="/socialmedia">Dowiedz się więcej</a></button>
                     </div>
                     
