@@ -6,6 +6,7 @@ import Slider2 from '../assets/gospodarna.webp'
 
 import 'swiper/swiper-bundle.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperPortfolio from './SwiperPortfolio';
 
 
 
@@ -38,13 +39,13 @@ function Portfolio() {
     }, []);
 
   return (
-    <div className='bg-[white] w-full px-4 py-[4rem]' id='portfolio'>
+    <div className='bg-[white] w-full px-4' id='portfolio'>
         <div ref={divRef} className='flex justify-center text-center max-w-[1240px] mx-auto'>
             <div className='mx-auto max-w-[1240px]'>
                 <h2 className={`text-[#404040] md:text-[56px] text-[40px] font-black pt-[40px] ${isVisible ? 'animate-zoom-in' : ''}`}>Nasze Portfolio</h2>
                 <div className={`w-[166px] h-[12px] bg-gradient-to-r from-[#b8c0d9] to-[#ba73d9] rounded-xl mx-auto mt-[20px] ${isVisible ? 'animate-zoom-in' : ''}`}></div>
                 <p className={`py-[40px] pb-[80px] font-normal text-[#333333] ${isVisible ? 'animate-zoom-in' : ''}`}>Zapoznaj się z naszymi najświeższymi projektami! Jako specjaliści w dziedzinie tworzenia stron internetowych, sklepów online oraz projektów graficznych, z dumą prezentujemy nasze osiągnięcia.</p>
-                    <div className={`grid md:grid-cols-2 gap-8 mb-[40px] bg-[#e5e5e5] ${isVisible ? 'animate-zoom-in' : ''}`}>
+                    {/* <div className={`grid md:grid-cols-2 gap-8 mb-[40px] bg-[#e5e5e5] ${isVisible ? 'animate-zoom-in' : ''}`}>
                         <div className='hidden md:flex'>
                             <img src={Slider1} alt="slider1 img" className='mx-auto h-auto md:h-[340px]' />
                         </div>
@@ -71,7 +72,8 @@ function Portfolio() {
                             <img src={Slider2} alt="slider1 img" className='mx-auto h-auto md:h-[340px]' />
                         </div>
                         
-                    </div>
+                    </div> */}
+                    {/* <SwiperPortfolio /> */}
                 </div>
             </div>
             

@@ -18,7 +18,7 @@ function Shops_Offer_Hero() {
                 </div>
                 <div className='glass-form w-[500px] h-[300px] flex flex-col items-center text-center leading-none py-10 px-10 animate-zoom-in'>
                     <img src={ReactIMG} alt="" className='w-[300px] mx-auto'/>
-                    <h1 className='text-[60px] font-normal text-white'>2000 zł</h1>
+                    <h1 className='text-[60px] font-normal text-white'>12000 zł</h1>
                     <p className='text-[20px] text-[white] font-normal'>(cena podlega negocjacji)</p>
                 </div>
             </div>

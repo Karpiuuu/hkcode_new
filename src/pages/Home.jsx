@@ -7,6 +7,7 @@ import Portfolio from '../compontents/Portfolio';
 import Footer from '../compontents/Footer';
 import LoadingComponent from '../compontents/LoadingComponent';
 import BlogComponent from '../compontents/BlogComponent';
+import SwiperPortfolio from '../compontents/SwiperPortfolio';
 
 function Home() {
 
@@ -29,7 +30,9 @@ function Home() {
       <Cards />
       <Reviews />
       <Portfolio />
+      <SwiperPortfolio />
       <BlogComponent />
+      
       <Footer />
       {/* {
         isLoading ? (
