@@ -3,6 +3,7 @@ import React, {useState, useRef, useEffect} from 'react'
 import {Pagination, Scrollbar, A11y } from 'swiper/modules';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper/modules';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -51,15 +52,22 @@ function SwiperPortfolio() {
                     "--swiper-pagination-color": "#B8C0D9",
                     "--swiper-pagination-bullet-inactive-color": "#E5E5E5",
                     "--swiper-pagination-bullet-inactive-opacity": "1",
-                    "--swiper-pagination-bullet-size": "16px",
+                    "--swiper-pagination-bullet-size": "12px",
                     "--swiper-pagination-bullet-horizontal-gap": "6px"
                   }}
+                
                 className='md:h-[380px]'
-                modules={[Pagination, Scrollbar, A11y]}
+                modules={[Autoplay, Pagination, Scrollbar, A11y]}
                 spaceBetween={50}
                 slidesPerView={1}
+                autoplay={{
+                    enabled: true,
+                    delay: 7*1000
+                }}
+                loop={true}
                 pagination={{ clickable: true }}
                 scrollbar={{ draggable: true }}
+                speed={1200}
                 >
                 <SwiperSlide>
                     <div className={`grid md:grid-cols-2 text-center ${isVisible ? 'animate-zoom-in' : ''}`}>
